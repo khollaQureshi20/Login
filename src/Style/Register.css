@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(135deg, #1e90ff, #00c6ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .signup-container {
+    display: flex;
+    width: 800px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background: white;
+  }
+  
+  .form-section {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .form-section h1 {
+    margin-bottom: 20px;
+    color: #1e90ff;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .input-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .terms {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .terms a {
+    color: #1e90ff;
+    text-decoration: none;
+  }
+  
+  .create-account {
+    width: 100%;
+    padding: 10px;
+    background: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .info-section {
+    flex: 1;
+    background: linear-gradient(135deg, #1e90ff, #00c6ff);
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .info-section img {
+    width: 280px;
+    height: 200px;
+  }
+
+  .info-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .info-section p {
+    font-size: 14px;
+  }
+  

@@ -1,0 +1,105 @@
+.screen-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .left-section {
+    flex: 1;
+    background: linear-gradient(135deg, #1e90ff, #00c6ff);
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .logo img {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .right-section {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .terms {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .terms input {
+    margin-right: 5px;  /* Controls the space between checkbox and label */
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .signup-btn {
+    flex: 1;
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signin-btn {
+    flex: 1;
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .password-input-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .password-input-container input {
+    flex: 1;
+    padding-right: 40px; /* Space for the button */
+  }
+  
+  .toggle-password-btn {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  .error-message{
+    color: red;
+  }
